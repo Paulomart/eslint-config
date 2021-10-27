@@ -1,6 +1,6 @@
 # @paulomart/eslint-config
 
-Sane eslint configs for Typescript and friends.
+Sane eslint configs for TypeScript and friends.
 
 ## Installation
 
