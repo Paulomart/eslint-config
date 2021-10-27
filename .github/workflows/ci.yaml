@@ -37,12 +37,14 @@ jobs:
           echo "::set-output name=MAJOR_VERSION::$(ci_tools get-version --major)"
 
       - name: Publish npm
+        if: ${{ github.actor != 'dependabot[bot]' }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           ci_tools publish-npm-package --create-tag-from-branch-name
 
       - name: Commit & tag version
+        if: ${{ github.actor != 'dependabot[bot]' }}
         env:
           GH_USER: ${{ secrets.GH_CI_USER_NAME }}
           GH_TOKEN: ${{ secrets.GH_CI_USER_TOKEN }}
