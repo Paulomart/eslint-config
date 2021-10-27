@@ -1,0 +1,28 @@
+{
+  "name": "simple-typescript-app01",
+  "version": "0.0.1",
+  "main": "dist/commonjs/index.js",
+  "typings": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^16.9.4",
+    "typescript": "^4.4.4",
+
+    "@paulomart/eslint-config": "file://../../../.",
+
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^8.1.0",
+    "eslint-plugin-import-newlines": "^1.1.5",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint -- 'src/**/**.ts*'"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@paulomart/eslint-config/react"
+    ]
+  }
+}

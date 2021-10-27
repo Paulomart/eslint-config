@@ -1,0 +1,33 @@
+{
+  "name": "simple-create-app01",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint-fix": "next lint --fix"
+  },
+  "dependencies": {
+    "next": "12.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.6",
+    "@types/react": "17.0.33",
+    "eslint-config-next": "12.0.1",
+    "typescript": "4.4.4",
+    "@paulomart/eslint-config": "file://../../../.",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^7",
+    "eslint-plugin-import-newlines": "^1.1.5",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.2"
+  },
+  "eslintConfig": {
+    "extends": "@paulomart/eslint-config/nextjs"
+  }
+}

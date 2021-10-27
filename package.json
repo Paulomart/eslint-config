@@ -1,0 +1,29 @@
+{
+  "name": "@paulomart/eslint-config",
+  "version": "0.0.4",
+  "description": "Sane eslint configs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paulomart/eslint-config.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paulomart/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Paulomart/eslint-config#readme",
+  "peerDependencies": {
+    "@next/eslint-plugin-next": "^12.x",
+    "eslint-plugin-react": "^7.x",
+    "@typescript-eslint/eslint-plugin": "^5.x",
+    "@typescript-eslint/parser": "^5.x",
+    "eslint": "^7.x",
+    "eslint-import-resolver-typescript": "^2.x",
+    "eslint-plugin-import": "^2.x",
+    "eslint-plugin-import-newlines": "^1.x",
+    "typescript": "*"
+  },
+  "engines": {
+    "npm": ">=7"
+  }
+}
