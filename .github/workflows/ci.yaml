@@ -5,6 +5,7 @@ on:
     branches:
       - "*"
       - "*/*"
+  pull_request:
 
 env:
   CI_TOOLS_VERSION: "3.3.1"
